@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<string.h>
 char s[20];
 scanf("%s",&s);
 int i=0;
