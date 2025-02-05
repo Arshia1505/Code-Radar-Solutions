@@ -4,8 +4,8 @@ int main(){
 char s[100];
 gets(s);
 int i=0;
-while(a[i]!='\0'){
-    if(a[i]==' '){
+while(s[i]!='\0'){
+    if(s[i]==' '){
         printf(" and ");
     }
     else{
