@@ -6,4 +6,5 @@ int main(){
     s=a+b+c;
     avg=s/3;
     printf("%lf",avg);
+    return 0;
 }
