@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<string.h>
 int main(){
     char name[10],int age,char hobby[10];
     scanf("%s %d %s",&name,&age,&hobby);
