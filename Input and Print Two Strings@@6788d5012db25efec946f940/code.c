@@ -1,17 +1,9 @@
 #include <stdio.h>
 #include<string.h>
 int main(){
-char s[100];
-gets(s);
-int i=0;
-while(s[i]!='\0'){
-    if(s[i]==' '){
-        printf(" and ");
-    }
-    else{
-        printf("%c",s[i]);
-    }
-    i++;
-}
+char s1[100];
+char s2[100];
+scanf("%s %s",&s1,&s2);
+printf("You entered %s and %s",s1,s2);
 return 0;
 }
