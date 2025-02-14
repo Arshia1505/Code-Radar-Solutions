@@ -3,7 +3,7 @@
 int main(){
     int a,n,newN;
     scanf("%d",&a);
-    newN = num ^ (1 << n);
+    newN = a ^ (1 << n);
     printf("%d",newN);
     return 0;
 }
