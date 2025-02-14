@@ -7,7 +7,7 @@ int main(){
      s=sizeof(int)*8;
     msb=1<<(s-1);
     for(i=0;i<s;i++){
-        if((n<<i)&msb){
+        if((a<<i)&msb){
             break;
         }
         c++;
