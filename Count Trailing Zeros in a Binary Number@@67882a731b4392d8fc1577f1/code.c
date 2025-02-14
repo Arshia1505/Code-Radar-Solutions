@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main(){
     int a;
-    int i,s;
+    int i,s,c=0;
     scanf("%d",&a);
     s=sizeof(int)*8;
     for(i=0;i<s;i++){
