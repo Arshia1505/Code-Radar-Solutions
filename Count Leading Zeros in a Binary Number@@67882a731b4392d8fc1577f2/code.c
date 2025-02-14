@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main(){
     int a,s;
-    int msb,i,c=0;
+    int msb=1,i,c=0;
     scanf("%d",&a);
      s=sizeof(int)*8;
     msb=1<<(s-1);
