@@ -1,14 +1,20 @@
 // Your code here...
-#include<stdio.h>
-int main(){
-    int n;
-    scanf("%d",&n);
-    int i,j;
-    for(i=0;i<n;i++){
-        for(j=0;j<=i;j++){
-            printf("A");
+#include <stdio.h>
+
+int main() {
+    int i, j, n;
+    char ch;
+    scanf("%d", &n);
+
+    // Generating the alphabet right triangle
+    for (i = 1; i <= n; i++) {
+        ch = 'A'; // Reset to 'A' for each row
+        for (j = 1; j <= i; j++) {
+            printf("%c ", ch);
+            ch++; // Increment character
         }
-        printf("\tB");
+        printf("\n");
     }
+
     return 0;
 }
