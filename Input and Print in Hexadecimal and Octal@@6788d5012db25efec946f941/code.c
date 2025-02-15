@@ -2,9 +2,6 @@
 
 int main() {
     int num;
-
-    // Taking input from the user
-    printf("Enter a number: ");
     scanf("%d", &num);
 
     // Printing the octal and hexadecimal forms
