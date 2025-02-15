@@ -1,23 +1,28 @@
 // Your code here...
-#include<stdio.h>
-int main(){
-    int n,i,j,a=1;
-    int r,rev,m;
-    scanf("%d",&n);
-    for(i=1;i<=n;i++){
-        for(j=0;j<=i;j++){
-            rev=0;
-            m=a;
-            while(m>0){
-                r=m%10;
-                rev=(rev*10)+r;
-                m=m/10;
-            }
-            if(a==rev){
-                printf("%d ",a);
-            }
+#include <stdio.h>
+
+int main() {
+    int n, i, j, space;
+    scanf("%d", &n);
+
+    for (i = 1; i <= n; i++) {
+        // Printing spaces for center alignment
+        for (space = 1; space <= n - i; space++) {
+            printf(" ");
         }
-        a++;
-        printf("\n");
+
+        // Printing increasing numbers
+        for (j = 1; j <= i; j++) {
+            printf("%d", j);
+        }
+
+        // Printing decreasing numbers
+        for (j = i - 1; j >= 1; j--) {
+            printf("%d", j);
+        }
+
+        printf("\n");  // Move to the next row
     }
+
+    return 0;
 }
