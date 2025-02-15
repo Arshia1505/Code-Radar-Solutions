@@ -7,15 +7,16 @@ int main(){
     for(i=1;i<=n;i++){
         for(j=0;j<=i;j++){
             m=a;
-            while(a>0){
-                r=a%10;
+            while(m>0){
+                r=m%10;
                 rev=(rev*10)+r;
-                a=a/10;
+                m=m/10;
             }
-            if(m==rev){
+            if(a==rev){
                 printf("%d ",m);
             }
         }
+        a++;
         printf("\n");
     }
 }
