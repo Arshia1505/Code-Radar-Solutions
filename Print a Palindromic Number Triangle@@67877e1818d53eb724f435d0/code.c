@@ -2,10 +2,11 @@
 #include<stdio.h>
 int main(){
     int n,i,j,a=1;
-    int r,rev=0,m;
+    int r,rev,m;
     scanf("%d",&n);
     for(i=1;i<=n;i++){
         for(j=0;j<=i;j++){
+            rev=0;
             m=a;
             while(m>0){
                 r=m%10;
