@@ -15,10 +15,10 @@ int main(){
         }
         for(j=0;j<=i;j++){
             if(j%2==0){
-                printf("%d ",a);
+                printf("%d ",b);
             }
             else{
-                printf("%d ",b);
+                printf("%d ",a);
             }
         }
         printf("\n");
