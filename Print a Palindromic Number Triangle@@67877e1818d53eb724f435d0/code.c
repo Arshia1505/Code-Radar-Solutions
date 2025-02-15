@@ -13,7 +13,7 @@ int main(){
                 m=m/10;
             }
             if(a==rev){
-                printf("%d ",m);
+                printf("%d ",a);
             }
         }
         a++;
