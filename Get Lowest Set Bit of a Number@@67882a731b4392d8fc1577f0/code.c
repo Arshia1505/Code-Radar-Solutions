@@ -7,7 +7,7 @@ int main() {
         num >>= 1;  // Right shift
         p++; // Move to the next position
     }
-        printf("%d\n", p);
+        printf("%d", p);
     
     return 0;
 }
