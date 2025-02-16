@@ -24,7 +24,7 @@ int main() {
     if (position == -1)
         printf("No set bit found (input was zero).\n");
     else
-        printf("Lowest set bit is at position (0-based): %d\n", position);
+        printf("%d\n", position);
     
     return 0;
 }
