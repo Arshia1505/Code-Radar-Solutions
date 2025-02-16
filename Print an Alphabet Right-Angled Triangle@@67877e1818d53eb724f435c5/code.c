@@ -8,8 +8,9 @@ int main(){
         ch='A';
         for(j=0;j<=i;j++){
             printf("%c",ch);
+             ch++;
         }
-        ch++;
+       
         printf("\n");
     }
     return 0;
