@@ -2,15 +2,12 @@
 #include<stdio.h>
 int main(){
     int cp,sp;
-    int loss,profit;
     scanf("%d %d",&cp,&sp);
     if(cp>sp){
-        loss=cp-sp;
-        printf("%d",loss);
+        printf("Loss");
     }
     if(sp>cp){
-        profit=sp-cp;
-        printf("%d",profit);
+        printf("Profit");
     }
     return 0;
 }
