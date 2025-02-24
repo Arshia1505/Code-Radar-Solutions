@@ -7,7 +7,7 @@ int isPrime(int num){
             f++;
         }
     }
-    if(num==1)
+    if(num==1||num==2)
     return 0;
     if(f==0)
     return 1;
