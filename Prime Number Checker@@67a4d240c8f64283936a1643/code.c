@@ -7,6 +7,8 @@ int isPrime(int num){
             f++;
         }
     }
+    if(num==1)
+    return 0;
     if(f==0)
     return 1;
     else
