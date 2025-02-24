@@ -1,5 +1,5 @@
 // Your code here...
-void isPrime(int num){
+int isPrime(int num){
     int i;
     int f=0;
     for(i=2;i<num;i++){
