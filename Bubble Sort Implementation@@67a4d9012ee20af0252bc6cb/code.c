@@ -11,24 +11,25 @@
 //     printArray(arr,n);
 //     return 0;
 // }
-int bubbleSort(int arr,int n){
-    int i,j,t;
-    for(i=0;i<n-1;i++){
-        for(j=1;j<n;j++){
-            if(arr[i]>arr[j]){
-                t=arr[i];
-                arr[i]=arr[j];
-                arr[j]=t;
+
+void bubbleSort(int arr[], int n) {
+    int i, j, t;
+    for(i = 0; i < n - 1; i++) {
+        for(j = 0; j < n - i - 1; j++) {
+            if(arr[j] > arr[j + 1]) {
+                // Swap elements
+                t = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = t;
             }
-     
         }
-    } 
-    return 0;   
-}
-int printArray(int arr,int n){
-    int i,j;
-    for(i=0;i<5;i++){
-        printf("%d ",arr[i]);
     }
-    return 0;
+}
+
+void printArray(int arr[], int n) {
+    int i;
+    for(i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
 }
