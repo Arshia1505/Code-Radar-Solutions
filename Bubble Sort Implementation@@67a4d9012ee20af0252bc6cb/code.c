@@ -15,10 +15,10 @@ int bubbleSort(int arr,int n){
     int i,j,t;
     for(i=0;i<n-1;i++){
         for(j=1;j<n;j++){
-            if(a[i]>a[j]){
-                t=a[i];
-                a[i]=a[j];
-                a[j]=t;
+            if(arr[i]>arr[j]){
+                t=arr[i];
+                arr[i]=arr[j];
+                arr[j]=t;
             }
      
         }
@@ -28,7 +28,7 @@ int bubbleSort(int arr,int n){
 int printArray(int arr,int n){
     int i,j;
     for(i=0;i<5;i++){
-        printf("%d ",a[i]);
+        printf("%d ",arr[i]);
     }
     return 0;
 }
